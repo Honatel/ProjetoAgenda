@@ -1,0 +1,15 @@
+<% controle de fluxo {for, if, foreach}%>
+<%= imprime escapando caracteres%>
+<%- imprime sem escapar caracteres%>
+<%# comentario%>
+<% include('caminho/arquivo')%>
+
+
+<% if(teste) {%>
+<% teste %>
+<% } else {%>
+<% teste }%>
+
+
+
+
